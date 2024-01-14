@@ -93,20 +93,6 @@ const Home = () => {
     mainNews();
     
   }, []);
- 
-  useEffect(() => {
-        let repeat = false;
-
-    setMain([...main].filter((el) => {
-     news.forEach((item) => {
-       if (item.id === el.id) {
-        console.log('item', item)
-        repeat=true
-      }
-     })
-      return repeat
-  }))
-  }, [main, news])
   
     return (
       <>
