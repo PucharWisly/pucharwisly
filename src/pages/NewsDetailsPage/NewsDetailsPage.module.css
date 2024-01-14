@@ -7,6 +7,10 @@
     margin: auto;
 }
 
+.article img{
+    max-width: 100%;
+}
+
 .backLink > button{
     left: 2px;
     border: none;
