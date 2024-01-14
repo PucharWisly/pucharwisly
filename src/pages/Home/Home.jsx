@@ -91,7 +91,12 @@ const Home = () => {
 
     latestNews();
     mainNews();
-    let repeat = false;
+    
+  }, []);
+ 
+  useEffect(() => {
+        let repeat = false;
+
     setMain([...main].filter((el) => {
      news.forEach((item) => {
        if (item.id === el.id) {
@@ -101,9 +106,7 @@ const Home = () => {
      })
       return repeat
   }))
-  }, []);
- 
-  
+  }, [main, news])
   
     return (
       <>
