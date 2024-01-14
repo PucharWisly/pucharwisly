@@ -1,59 +1,42 @@
-import React, { useEffect, useState } from 'react'
-import Filter from './Filter/Filter'
-import Contacts from './Contacts/Contacts'
-import FormUser  from './FormUser/FormUser'
+import { Navigate, Route, Routes } from "react-router-dom";
+import React, { Suspense, lazy } from "react";
 
-export const App = () => {
+const Layout = lazy(() => import("pages/layout/Layout"))
+const Home = lazy(() => import("pages/Home/Home"))
+const Komunikaty = lazy(() => import("pages/Komunikaty"))
+const Zgloszenia = lazy(() => import("pages/Zgloszenia"))
+const Teren = lazy(() => import("pages/Teren/Teren"))
+const Kontakt = lazy(() => import("pages/Kontakt/Kontakt"))
+const Aktualnosci = lazy(() => import("pages/Aktualnosci/Aktualnosci"))
+const NewsDetailsPage = lazy(() => import("pages/NewsDetailsPage/NewsDetailsPage"))
 
-  const [contacts, setContacts] = useState(JSON.parse(localStorage.getItem('contacts')) ?? [])
-  const [filter, setFilter] = useState('')
+ const App = () => {
+   return (<>
+     <Suspense fallback={<div>Ładowanie...</div>}>
+       <Routes>
+         <Route path='/' element={<Layout />} >
+           <Route index element={<Home />} />
+           
+           <Route path='/komunikaty' element={<Komunikaty />} />
 
-  useEffect(() => {
-    localStorage.setItem('contacts', JSON.stringify(contacts))
-  }, [contacts])
+           <Route path='/aktualnosci' element={<Aktualnosci />} />
+           <Route path='/aktualnosci/:newsId' element={
+             <NewsDetailsPage />
+           } >
+           </Route>
+           
+           <Route path='/zgloszenia' element={<Zgloszenia />} />
+           
+           <Route path='/teren' element={<Teren />} />
+           <Route path='/kontakt' element={<Kontakt />} />
 
-  
-  const sendUserData = (data) => {
-    setContacts((prev) => {
-      if (prev.find(({ name }) => name.toLowerCase() === data.name.toLowerCase())) {
-        alert(data.name + " is already in contacts")
-        return;
-      }
-      return [...prev, data]
-    })
-  }
+         </Route>
+         
+         <Route path='*' element={< Navigate to="/" />} />
 
-    const handlerFilter = (evt) => {
-      setFilter(evt.target.value)
-  };
-    
-  
-  const handleDelete = (evt) => {
-      setContacts((prev) => {
-        return prev.filter(item => {
-          return item.id !== evt.target.parentElement.id
-        })
-      })
-  }
-  
-    const getVisibleContacts = () => {
-      
-      const normalizedFilter = filter.toLowerCase();
-      return contacts.filter(contact =>
-        contact.name.toLowerCase().includes(normalizedFilter)
-      );
-    }
-
-
-
-    return (
-      <>
-        <h1>Phonebook</h1>
-        <FormUser sendUserData={sendUserData} />
-        <h2>Contacts</h2>
-        <Filter handlerFilter={handlerFilter} />
-        <Contacts contactList={getVisibleContacts()}
-          handleDelete={handleDelete} />
-      </>
-    )
-  }
+       </Routes>
+     </Suspense>
+   </>
+   )
+};
+export default App
