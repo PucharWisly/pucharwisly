@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/691.143deefd.chunk.css","mappings":"AAAA,qBACI,YACJ,CAEA,wBAEI,WAAY,CADZ,SAEJ","sources":["pages/Kontakt/Kontakt.module.css"],"sourcesContent":[".main{\n    display: flex;\n}\n\n.article{\n    width: 80%;\n    margin: auto;\n}\n"],"names":[],"sourceRoot":""}
