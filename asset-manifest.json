@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pucharwisly/static/css/main.ba4d0b68.css",
-    "main.js": "/pucharwisly/static/js/main.15dded54.js",
-    "static/css/946.938e500e.chunk.css": "/pucharwisly/static/css/946.938e500e.chunk.css",
+    "main.js": "/pucharwisly/static/js/main.48099eec.js",
+    "static/css/946.46383e8d.chunk.css": "/pucharwisly/static/css/946.46383e8d.chunk.css",
     "static/js/946.f8a3ef79.chunk.js": "/pucharwisly/static/js/946.f8a3ef79.chunk.js",
     "static/css/936.1de6bf42.chunk.css": "/pucharwisly/static/css/936.1de6bf42.chunk.css",
     "static/js/936.a8d854c5.chunk.js": "/pucharwisly/static/js/936.a8d854c5.chunk.js",
@@ -21,8 +21,8 @@
     "static/media/headerBackground2.jpg": "/pucharwisly/static/media/headerBackground2.ef646c18e7bdf71dbdb8.jpg",
     "index.html": "/pucharwisly/index.html",
     "main.ba4d0b68.css.map": "/pucharwisly/static/css/main.ba4d0b68.css.map",
-    "main.15dded54.js.map": "/pucharwisly/static/js/main.15dded54.js.map",
-    "946.938e500e.chunk.css.map": "/pucharwisly/static/css/946.938e500e.chunk.css.map",
+    "main.48099eec.js.map": "/pucharwisly/static/js/main.48099eec.js.map",
+    "946.46383e8d.chunk.css.map": "/pucharwisly/static/css/946.46383e8d.chunk.css.map",
     "946.f8a3ef79.chunk.js.map": "/pucharwisly/static/js/946.f8a3ef79.chunk.js.map",
     "936.1de6bf42.chunk.css.map": "/pucharwisly/static/css/936.1de6bf42.chunk.css.map",
     "936.a8d854c5.chunk.js.map": "/pucharwisly/static/js/936.a8d854c5.chunk.js.map",
@@ -40,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.ba4d0b68.css",
-    "static/js/main.15dded54.js"
+    "static/js/main.48099eec.js"
   ]
 }
