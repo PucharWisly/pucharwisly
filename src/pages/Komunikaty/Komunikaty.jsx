@@ -1,10 +1,13 @@
 import NewsList from 'components/NewsList/NewsList';
 import React, { useState, useEffect } from 'react';
+import css from './Komunikaty.module.css'
+import { useLocation } from 'react-router-dom';
 
 const Komunikaty = () => {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
   const [news, setNews] = useState([]);
+  const location = useLocation()
 
   const apiUrl = 'https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/clr82i1dt043r01wadskebz7p/master';
 
@@ -52,7 +55,11 @@ const Komunikaty = () => {
     <>
       {loading && <div>Loading...</div>}
       {error && <div>Coś poszło nie tak</div>}
-      <NewsList komunikaty={news} />
+      <main className={css.container}>
+          <article className={css.newsContainer}>
+            <NewsList komunikaty={news} location={location } />
+        </article>
+        </main>
     </>
   );
 };

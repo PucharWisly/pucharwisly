@@ -3,7 +3,7 @@ import React, { Suspense, lazy } from "react";
 
 const Layout = lazy(() => import("pages/layout/Layout"))
 const Home = lazy(() => import("pages/Home/Home"))
-const Komunikaty = lazy(() => import("pages/Komunikaty"))
+const Komunikaty = lazy(() => import("pages/Komunikaty/Komunikaty"))
 const Zgloszenia = lazy(() => import("pages/Zgloszenia"))
 const Teren = lazy(() => import("pages/Teren/Teren"))
 const Kontakt = lazy(() => import("pages/Kontakt/Kontakt"))
