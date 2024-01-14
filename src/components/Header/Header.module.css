@@ -14,7 +14,7 @@
   .header{
     flex-direction: row;
       background-image: url('./headerBackground2.jpg');
-      height: 340px;
+      min-height: 340px;
       display: flex;    
       align-items: flex-start;
   }
