@@ -5,6 +5,7 @@
 .article{
     width: 80%;
     margin: auto;
+    word-break: break-all;
 }
 
 .article img{
