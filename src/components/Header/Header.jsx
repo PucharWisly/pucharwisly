@@ -46,7 +46,10 @@ const Header = () => {
                 }}>Komunikaty</NavLink>
                     </li>
                     <li>
-                        <NavLink className={css.navLink} to='/wyniki'>Wyniki</NavLink>
+                        <NavLink className={css.navLink} to='/wyniki'
+                        style={({ isActive }) => {
+                  return isActive ? { color: ACTIVE_LINK } : {};
+                }}>Zgloszenia</NavLink>
                     </li>
                     <li>
                         <NavLink className={css.navLink} to='/teren'
