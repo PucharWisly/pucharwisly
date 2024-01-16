@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+}
+
+.article{
+    width: 80%;
+    margin: auto;
+}
+.article img{
+    max-width: 100%;
+    height: auto;
+}
+
+.table{
+    display: flex;
+    gap: 30px
+}

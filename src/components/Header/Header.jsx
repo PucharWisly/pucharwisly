@@ -46,7 +46,7 @@ const Header = () => {
                 }}>Komunikaty</NavLink>
                     </li>
                     <li>
-                        <NavLink className={css.navLink} target='_blank' to='https://www.orienteering.org.pl/pzos/detail/competition/588'>Zgłoszenia</NavLink>
+                        <NavLink className={css.navLink} to='/wyniki'>Wyniki</NavLink>
                     </li>
                     <li>
                         <NavLink className={css.navLink} to='/teren'
