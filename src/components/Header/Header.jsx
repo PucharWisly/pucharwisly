@@ -49,7 +49,7 @@ const Header = () => {
                         <NavLink className={css.navLink} to='/wyniki'
                         style={({ isActive }) => {
                   return isActive ? { color: ACTIVE_LINK } : {};
-                }}>Zgloszenia</NavLink>
+                }}>Wyniki</NavLink>
                     </li>
                     <li>
                         <NavLink className={css.navLink} to='/teren'
