@@ -70,7 +70,7 @@ const NewsDetailsPage = () => {
         <hr />
         <time dateTime={news.publishedAt}>{news.publishedAt && extractDate(news.publishedAt)}</time>
         <hr />
-        <div dangerouslySetInnerHTML={{ __html: news.content?.html }}></div>
+        <div dangerouslySetInnerHTML={{ __html: news.content?.html }} ></div>
       </article>
     </main >
   </>
