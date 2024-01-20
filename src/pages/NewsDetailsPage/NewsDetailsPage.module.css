@@ -1,5 +1,11 @@
 .main{
     display: flex;
+    flex-direction: column;
+}
+@media only screen and (min-width: 768px) {
+    .main{
+        flex-direction: row;
+    }
 }
 
 .article{
@@ -10,6 +16,10 @@
 .article img{
     max-width: 100%;
     height: auto;
+}
+
+.backLink{
+    height: 10px;
 }
 
 .backLink > button{
