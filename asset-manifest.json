@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/pucharwisly/static/css/main.ba4d0b68.css",
-    "main.js": "/pucharwisly/static/js/main.498ad0cd.js",
-    "static/css/946.938e500e.chunk.css": "/pucharwisly/static/css/946.938e500e.chunk.css",
-    "static/js/946.db0e4f7a.chunk.js": "/pucharwisly/static/js/946.db0e4f7a.chunk.js",
+    "main.js": "/pucharwisly/static/js/main.99c512c3.js",
+    "static/css/946.05af38a8.chunk.css": "/pucharwisly/static/css/946.05af38a8.chunk.css",
+    "static/js/946.381c7c8b.chunk.js": "/pucharwisly/static/js/946.381c7c8b.chunk.js",
     "static/css/936.1de6bf42.chunk.css": "/pucharwisly/static/css/936.1de6bf42.chunk.css",
     "static/js/936.16d2e5fe.chunk.js": "/pucharwisly/static/js/936.16d2e5fe.chunk.js",
     "static/css/736.1c02f8f1.chunk.css": "/pucharwisly/static/css/736.1c02f8f1.chunk.css",
@@ -22,9 +22,9 @@
     "static/media/headerBackground2.jpg": "/pucharwisly/static/media/headerBackground2.ef646c18e7bdf71dbdb8.jpg",
     "index.html": "/pucharwisly/index.html",
     "main.ba4d0b68.css.map": "/pucharwisly/static/css/main.ba4d0b68.css.map",
-    "main.498ad0cd.js.map": "/pucharwisly/static/js/main.498ad0cd.js.map",
-    "946.938e500e.chunk.css.map": "/pucharwisly/static/css/946.938e500e.chunk.css.map",
-    "946.db0e4f7a.chunk.js.map": "/pucharwisly/static/js/946.db0e4f7a.chunk.js.map",
+    "main.99c512c3.js.map": "/pucharwisly/static/js/main.99c512c3.js.map",
+    "946.05af38a8.chunk.css.map": "/pucharwisly/static/css/946.05af38a8.chunk.css.map",
+    "946.381c7c8b.chunk.js.map": "/pucharwisly/static/js/946.381c7c8b.chunk.js.map",
     "936.1de6bf42.chunk.css.map": "/pucharwisly/static/css/936.1de6bf42.chunk.css.map",
     "936.16d2e5fe.chunk.js.map": "/pucharwisly/static/js/936.16d2e5fe.chunk.js.map",
     "736.1c02f8f1.chunk.css.map": "/pucharwisly/static/css/736.1c02f8f1.chunk.css.map",
@@ -42,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.ba4d0b68.css",
-    "static/js/main.498ad0cd.js"
+    "static/js/main.99c512c3.js"
   ]
 }
