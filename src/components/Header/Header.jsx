@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import css from './Header.module.css'
 
 const ACTIVE_LINK='#f5dada'
@@ -14,7 +14,7 @@ const Header = () => {
 
                 <div className={css.navHeader}>
                     <div className={css.titleLink } to='/'>
-                        Puchar Wisły 2024
+                        <Link to='/'>Puchar Wisły 2024</Link>
                     </div>
                 </div>
                 

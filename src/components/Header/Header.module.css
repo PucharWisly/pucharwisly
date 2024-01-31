@@ -158,3 +158,8 @@
   .date {
 display: none;    }
 }
+
+.titleLink a{
+  text-decoration: none;
+  color: red;
+}
