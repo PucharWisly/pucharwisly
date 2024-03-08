@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { Link, useLocation, useParams } from 'react-router-dom'
 import css from './NewsDetailsPage.module.css'
 import { extractDate } from './date'
+import { a } from 'components/Header/Untitled-1'
 
 const NewsDetailsPage = () => {
   const { newsId } = useParams()
@@ -9,7 +10,7 @@ const NewsDetailsPage = () => {
   const [error, setError] = useState(null)
   const [news, setNews] = useState([]);
 
-  const apiUrl = 'https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/clr82i1dt043r01wadskebz7p/master';
+  const apiUrl = a;
 
   useEffect(() => {
     const fetchData = async () => {
