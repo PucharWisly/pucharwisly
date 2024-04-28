@@ -10,7 +10,8 @@ const NewsDetailsPage = () => {
   const [error, setError] = useState(null)
   const [news, setNews] = useState([]);
 
-  const apiUrl = a;
+  // const apiUrl = a;
+  const apiUrl='https://api-eu-central-1-shared-euc1-02.hygraph.com/41f9b4e645c641648a8cbd6184297a5b'
 
   useEffect(() => {
     const fetchData = async () => {
