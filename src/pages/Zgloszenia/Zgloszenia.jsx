@@ -57,6 +57,17 @@ const Zgloszenia = () => {
               </tr>
             </td>
           </table>
+          <Link
+            target="_blank"
+            to="https://www.livelox.com/Events/Show/127107/Puchar-Wisly-Etap-1-Middle"
+          >
+            <img
+              src={require('./../../images/Livelox-QR-code-Puchar Wisły,  Etap 1.png')}
+              alt=""
+              width='200'
+              height='200'
+            />
+          </Link>
         </article>
       </main>
     </>
