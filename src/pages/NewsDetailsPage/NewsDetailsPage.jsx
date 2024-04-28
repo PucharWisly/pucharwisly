@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import { Link, useLocation, useParams } from 'react-router-dom'
 import css from './NewsDetailsPage.module.css'
 import { extractDate } from './date'
-import { a } from 'components/Header/Untitled-1'
 
 const NewsDetailsPage = () => {
   const { newsId } = useParams()
