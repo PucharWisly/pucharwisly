@@ -62,11 +62,21 @@ const Zgloszenia = () => {
               </tr>
               <tr>
                 {' '}
-                <Link>Wyniki</Link>
+                <Link
+                  target="_blank"
+                  to="https://drive.google.com/file/d/1OJVR2l7R3tTNGTL6ASVixyGjp6Eju4dl/view?usp=sharing"
+                >
+                  Wyniki
+                </Link>
               </tr>
               <tr>
                 {' '}
-                <Link>Międzyczasy</Link>
+                <Link
+                  target="_blank"
+                  to="https://drive.google.com/file/d/1UrPHKPDWfhQZE_tS72OTRk8LM6RQOnhW/view?usp=sharing"
+                >
+                  Międzyczasy
+                </Link>
               </tr>
               <tr>
                 <Link
@@ -79,6 +89,16 @@ const Zgloszenia = () => {
                     width="200"
                     height="200"
                   />
+                </Link>
+              </tr>
+            </td>
+            <td>
+              <tr>
+                <Link
+                  target="_blank"
+                  to="https://drive.google.com/file/d/10VanFHikuQzdaTUkSFtTGDEyjrEQDn8n/view?usp=sharing"
+                >
+                  Wyniki Etap 1 + Etap 2
                 </Link>
               </tr>
             </td>
