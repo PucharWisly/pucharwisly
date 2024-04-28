@@ -36,6 +36,19 @@ const Zgloszenia = () => {
                   Międzyczasy
                 </Link>
               </tr>
+              <tr>
+                <Link
+                  target="_blank"
+                  to="https://www.livelox.com/Events/Show/127107/Puchar-Wisly-Etap-1-Middle"
+                >
+                  <img
+                    src={require('./../../images/Livelox-QR-code-Puchar Wisły,  Etap 1.png')}
+                    alt=""
+                    width="200"
+                    height="200"
+                  />
+                </Link>
+              </tr>
             </td>
             <td>
               <tr>
@@ -55,19 +68,21 @@ const Zgloszenia = () => {
                 {' '}
                 <Link>Międzyczasy</Link>
               </tr>
+              <tr>
+                <Link
+                  target="_blank"
+                  to="https://www.livelox.com/Events/Show/127190/Puchar-Wisly-Etap-2-Klasyk"
+                >
+                  <img
+                    src={require('./../../images/Livelox-QR-code-Puchar Wisły,  Etap 1.png')}
+                    alt=""
+                    width="200"
+                    height="200"
+                  />
+                </Link>
+              </tr>
             </td>
           </table>
-          <Link
-            target="_blank"
-            to="https://www.livelox.com/Events/Show/127107/Puchar-Wisly-Etap-1-Middle"
-          >
-            <img
-              src={require('./../../images/Livelox-QR-code-Puchar Wisły,  Etap 1.png')}
-              alt=""
-              width='200'
-              height='200'
-            />
-          </Link>
         </article>
       </main>
     </>
