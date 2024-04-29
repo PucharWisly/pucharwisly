@@ -9,7 +9,8 @@ const Komunikaty = () => {
   const [news, setNews] = useState([]);
   const location = useLocation()
 
-  const apiUrl = 'https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/clr82i1dt043r01wadskebz7p/master';
+  const apiUrl =
+    'https://eu-central-1-shared-euc1-02.cdn.hygraph.com/content/clr82i1dt043r01wadskebz7p/master';
 
   useEffect(() => {
     const fetchData = async () => {

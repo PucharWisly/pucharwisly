@@ -6,7 +6,8 @@ const Teren = () => {
   const [error, setError] = useState(null)
   const [teren, setTeren] = useState([]);
 
-  const apiUrl = 'https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/clr82i1dt043r01wadskebz7p/master';
+  const apiUrl =
+    'https://eu-central-1-shared-euc1-02.cdn.hygraph.com/content/clr82i1dt043r01wadskebz7p/master';
 
   useEffect(() => {
     const fetchData = async () => {

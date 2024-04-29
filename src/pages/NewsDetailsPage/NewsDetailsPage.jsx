@@ -10,7 +10,8 @@ const NewsDetailsPage = () => {
   const [news, setNews] = useState([]);
 
   // const apiUrl = a;
-  const apiUrl='https://api-eu-central-1-shared-euc1-02.hygraph.com/41f9b4e645c641648a8cbd6184297a5b'
+  const apiUrl =
+    'https://eu-central-1-shared-euc1-02.cdn.hygraph.com/content/clr82i1dt043r01wadskebz7p/master';
 
   useEffect(() => {
     const fetchData = async () => {
@@ -36,7 +37,7 @@ const NewsDetailsPage = () => {
               }
             `,
           }),
-        })
+        });
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
