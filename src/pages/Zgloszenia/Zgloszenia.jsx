@@ -10,6 +10,16 @@ const Zgloszenia = () => {
           <table className={css.table}>
             <td>
               <tr>
+                <Link
+                  target="_blank"
+                  to="https://drive.google.com/file/d/1c0mEm_aY2X7PwquLwNaXe9nMRhOIFNvB/view?usp=sharing"
+                >
+                  Wyniki I i II etap Elita
+                </Link>
+              </tr>
+            </td>
+            <td>
+              <tr>
                 <b>Średni</b>:{' '}
                 <Link
                   target="_blank"
