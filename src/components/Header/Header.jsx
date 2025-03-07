@@ -14,7 +14,7 @@ const Header = () => {
 
                 <div className={css.navHeader}>
                     <div className={css.titleLink } to='/'>
-                        <Link to='/'>Puchar Wisły 2024</Link>
+                        <Link to='/'>Puchar Wisły 2025</Link>
                     </div>
                 </div>
                 
