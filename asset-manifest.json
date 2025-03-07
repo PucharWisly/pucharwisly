@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/pucharwisly/static/css/main.ba4d0b68.css",
-    "main.js": "/pucharwisly/static/js/main.34ef5f52.js",
-    "static/css/946.05af38a8.chunk.css": "/pucharwisly/static/css/946.05af38a8.chunk.css",
-    "static/js/946.381c7c8b.chunk.js": "/pucharwisly/static/js/946.381c7c8b.chunk.js",
+    "main.js": "/pucharwisly/static/js/main.fe576464.js",
+    "static/css/946.863a23fd.chunk.css": "/pucharwisly/static/css/946.863a23fd.chunk.css",
+    "static/js/946.b41e3736.chunk.js": "/pucharwisly/static/js/946.b41e3736.chunk.js",
     "static/css/936.7e911c4d.chunk.css": "/pucharwisly/static/css/936.7e911c4d.chunk.css",
     "static/js/936.6488f120.chunk.js": "/pucharwisly/static/js/936.6488f120.chunk.js",
     "static/css/736.4a5a78d4.chunk.css": "/pucharwisly/static/css/736.4a5a78d4.chunk.css",
@@ -19,13 +19,13 @@
     "static/css/675.35baa57d.chunk.css": "/pucharwisly/static/css/675.35baa57d.chunk.css",
     "static/js/675.2e214618.chunk.js": "/pucharwisly/static/js/675.2e214618.chunk.js",
     "static/media/backgroundMobile3.jpg": "/pucharwisly/static/media/backgroundMobile3.c6e3c8828f2108915cef.jpg",
-    "static/media/headerBackground2.jpg": "/pucharwisly/static/media/headerBackground2.ef646c18e7bdf71dbdb8.jpg",
+    "static/media/headerBackground2.jpg": "/pucharwisly/static/media/headerBackground2.c6692913de45ec410038.jpg",
     "static/media/Livelox-QR-code-Puchar Wisły,  Etap 1.png": "/pucharwisly/static/media/Livelox-QR-code-Puchar Wisły,  Etap 1.adbd72d29491c40231c4.png",
     "index.html": "/pucharwisly/index.html",
     "main.ba4d0b68.css.map": "/pucharwisly/static/css/main.ba4d0b68.css.map",
-    "main.34ef5f52.js.map": "/pucharwisly/static/js/main.34ef5f52.js.map",
-    "946.05af38a8.chunk.css.map": "/pucharwisly/static/css/946.05af38a8.chunk.css.map",
-    "946.381c7c8b.chunk.js.map": "/pucharwisly/static/js/946.381c7c8b.chunk.js.map",
+    "main.fe576464.js.map": "/pucharwisly/static/js/main.fe576464.js.map",
+    "946.863a23fd.chunk.css.map": "/pucharwisly/static/css/946.863a23fd.chunk.css.map",
+    "946.b41e3736.chunk.js.map": "/pucharwisly/static/js/946.b41e3736.chunk.js.map",
     "936.7e911c4d.chunk.css.map": "/pucharwisly/static/css/936.7e911c4d.chunk.css.map",
     "936.6488f120.chunk.js.map": "/pucharwisly/static/js/936.6488f120.chunk.js.map",
     "736.4a5a78d4.chunk.css.map": "/pucharwisly/static/css/736.4a5a78d4.chunk.css.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.ba4d0b68.css",
-    "static/js/main.34ef5f52.js"
+    "static/js/main.fe576464.js"
   ]
 }
