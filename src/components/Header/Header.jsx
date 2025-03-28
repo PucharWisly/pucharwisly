@@ -65,7 +65,7 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-            <span className={css.date}>27-28 Kwietnia</span>
+            <span className={css.date}>24-25 Maja</span>
         </header>
     )
 }
