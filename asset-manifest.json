@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/pucharwisly/static/css/main.ba4d0b68.css",
-    "main.js": "/pucharwisly/static/js/main.fe576464.js",
+    "main.js": "/pucharwisly/static/js/main.5f367bcb.js",
     "static/css/946.863a23fd.chunk.css": "/pucharwisly/static/css/946.863a23fd.chunk.css",
-    "static/js/946.b41e3736.chunk.js": "/pucharwisly/static/js/946.b41e3736.chunk.js",
+    "static/js/946.f488e0d9.chunk.js": "/pucharwisly/static/js/946.f488e0d9.chunk.js",
     "static/css/936.7e911c4d.chunk.css": "/pucharwisly/static/css/936.7e911c4d.chunk.css",
     "static/js/936.6488f120.chunk.js": "/pucharwisly/static/js/936.6488f120.chunk.js",
     "static/css/736.4a5a78d4.chunk.css": "/pucharwisly/static/css/736.4a5a78d4.chunk.css",
@@ -23,9 +23,9 @@
     "static/media/Livelox-QR-code-Puchar Wisły,  Etap 1.png": "/pucharwisly/static/media/Livelox-QR-code-Puchar Wisły,  Etap 1.adbd72d29491c40231c4.png",
     "index.html": "/pucharwisly/index.html",
     "main.ba4d0b68.css.map": "/pucharwisly/static/css/main.ba4d0b68.css.map",
-    "main.fe576464.js.map": "/pucharwisly/static/js/main.fe576464.js.map",
+    "main.5f367bcb.js.map": "/pucharwisly/static/js/main.5f367bcb.js.map",
     "946.863a23fd.chunk.css.map": "/pucharwisly/static/css/946.863a23fd.chunk.css.map",
-    "946.b41e3736.chunk.js.map": "/pucharwisly/static/js/946.b41e3736.chunk.js.map",
+    "946.f488e0d9.chunk.js.map": "/pucharwisly/static/js/946.f488e0d9.chunk.js.map",
     "936.7e911c4d.chunk.css.map": "/pucharwisly/static/css/936.7e911c4d.chunk.css.map",
     "936.6488f120.chunk.js.map": "/pucharwisly/static/js/936.6488f120.chunk.js.map",
     "736.4a5a78d4.chunk.css.map": "/pucharwisly/static/css/736.4a5a78d4.chunk.css.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.ba4d0b68.css",
-    "static/js/main.fe576464.js"
+    "static/js/main.5f367bcb.js"
   ]
 }
